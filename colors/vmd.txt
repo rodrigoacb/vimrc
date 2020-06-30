@@ -1,0 +1,28 @@
+sudo apt update
+sudo apt-get install gcc
+sudo apt-get install gfortran
+
+~~fazer o download do vmd como no vídeo~~
+~~achar o caminho do download no seu HD montado~~
+
+cd ..
+cd ..
+cd mnt
+cd "seu disco"/caminho para a pasta que o vmd foi baixado
+cp vmd~TAB~ ~/
+cd
+mkdir Programs
+cd Programs/
+mkdir vmd
+cd vmd/
+cd
+mv vmd~TAB~ Programs/vmd/
+cd Programs/vmd/
+tar -xzvf vmd~TAB~
+cd vmd-1.9.3/
+ls
+./configure
+cd src
+sudo apt-get install build-essential
+sudo make install
+
