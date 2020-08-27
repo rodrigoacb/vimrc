@@ -54,6 +54,7 @@ set ts=4 sw=4 et " Define o tab como 4 espaços
 "set foldmethod=indent " faz o fold nas identações
 "set foldnestmax=3: define numero máximo de fols consecutivos
 "set nofoldenable: Disabilita o fold
+let fortran_do_enddo=1
 " --------------------------------------------------------------------------
 " Inicializando o syntastic
 " --------------------------------------------------------------------------
